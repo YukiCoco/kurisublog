@@ -3,4 +3,4 @@ main = "workers-site/index.js"
 compatibility_date = "2022-11-17"
 
 [site]
-bucket = "./minified_public"
+bucket = "./public"
