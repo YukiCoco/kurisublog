@@ -7,8 +7,8 @@ title: Hexo
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
-language: en
+author: Kurisu
+language: zh-cn
 timezone: 'Asia/Taipei'
 
 # URL
@@ -105,3 +105,6 @@ deploy:
   type: aws-s3
   bucket: kurisublog
   region: us-east-1
+
+aplayer:
+  meting: true
