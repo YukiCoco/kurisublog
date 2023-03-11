@@ -64,3 +64,6 @@ deploy:
   type: aws-s3
   bucket: kurisublog
   region: us-east-1
+
+aplayer:
+  meting: true
