@@ -3,6 +3,10 @@ title: about
 date: 2022-11-16 22:56:00
 layout: about
 ---
-在读本科生。  
-萌新游戏玩家，比较喜欢 mmorpg 和动作游戏，最喜欢的游戏有《上古卷轴5》、《塞尔达传说：旷野之息》、《最终幻想 14》。  
-想让我的代码能让世界有一点点改变。  
+这里是一个啥都在玩的计算机 newbie。  
+只要是有趣的事情，我都容易沉迷进去，通宵达旦是家常便饭，忘记吃饭也时有发生。  
+喜欢打游戏，手里有 PS5、Switch、Steam Deck。  
+私は今日本語を勉強しでいます。　
+想为开源社区做一点点贡献的弱鸡，觉得这样就算是让世界因为我而有了一点点改变。  
+现在 Rust 是我的新项目首选语言，包括前端都打算用 WASM 写逻辑，因为你说的对，但是 [wasm-bindgen](https://rustwasm.github.io/docs/wasm-bindgen/) 是 Facilitating high-level interactions between Wasm modules and JavaScript，后面忘了。  
+总之，希望你在这个捞得淌口水的博客中有所收获！  
