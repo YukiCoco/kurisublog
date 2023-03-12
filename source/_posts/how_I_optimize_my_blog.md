@@ -3,7 +3,7 @@ title: 我是如何优化博客访问的
 date: 2022-12-05 17:09:49
 tags: ["Web"]
 ---
-![Rocket](https://static.kuri.su/2022/12/edc0f7b21060d5445e20aab05d6c7eb2.webp)
+![](https://static.kuri.su/2022/12/edc0f7b21060d5445e20aab05d6c7eb2.webp)
 借着换域名的机会，给博客的速度也优化一手。这篇博文将循序渐进地阐述我为优化访问做出的些许尝试，还有这个过程中的一些思考。
 <!-- more -->
 这是我最近在听的一首歌，现代刻意复古的 City Pop，喜欢极了：

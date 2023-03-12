@@ -164,10 +164,10 @@ search:
     index_pages: true
 # Comment plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment/
-comment:
-    type: disqusjs
-    shortname: kurisu-blog
-    api_key: I3bG9ir0K6FQndDRm1hG1uNBe2VkK058J2D3hl3lJc2AcJ80hqPVFnW9gKaGxKCC
+# comment:
+#     type: disqusjs
+#     shortname: kurisu-blog
+#     api_key: I3bG9ir0K6FQndDRm1hG1uNBe2VkK058J2D3hl3lJc2AcJ80hqPVFnW9gKaGxKCC
 # Donate plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Donation/
 # donates:
@@ -407,4 +407,4 @@ providers:
     # Name or URL template of the webfont CDN provider
     fontcdn: ustc
     # Name or URL of the fontawesome icon font CDN provider
-    iconcdn: fontawesome
+    iconcdn: https://cdn.kuri.su/npm/@fortawesome/fontawesome-free@6.0.0/css/all.css
