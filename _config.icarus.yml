@@ -3,7 +3,7 @@ version: 5.1.0
 # Icarus theme variant, can be "default" or "cyberpunk"
 variant: default
 # Path or URL to the website's logo
-logo: "https://static.kuri.su/steinlogo.png"
+logo: "https://niconiacg.visualstudio.com/a158c0e6-f968-4c72-b336-690f5a7c8b4c/_apis/git/repositories/f4cb0aa8-76ef-49d2-bee3-9a3deda56975/items?path=/steinlogo.png&%24format=octetStream&api-version=5.0"
 # Page metadata configurations
 head:
     # URL or path to the website's icon
@@ -29,7 +29,7 @@ head:
         icons:
             -
                 # The path to the image file
-                src: 'https://static.kuri.su/steinlogo.png'
+                src: 'https://niconiacg.visualstudio.com/a158c0e6-f968-4c72-b336-690f5a7c8b4c/_apis/git/repositories/f4cb0aa8-76ef-49d2-bee3-9a3deda56975/items?path=/steinlogo.png&%24format=octetStream&api-version=5.0'
                 # A string containing space-separated image dimensions
                 sizes: ''
                 # A hint as to the media type of the image
@@ -235,7 +235,7 @@ widgets:
         # Author's current location
         location: China
         # URL or path to the avatar image
-        avatar: https://static.kuri.su/avatar.jpg
+        avatar: https://niconiacg.visualstudio.com/a158c0e6-f968-4c72-b336-690f5a7c8b4c/_apis/git/repositories/f4cb0aa8-76ef-49d2-bee3-9a3deda56975/items?path=/avatar.jpg&%24format=octetStream&api-version=5.0
         # Whether show the rounded avatar image
         avatar_rounded: false
         # Email address for the Gravatar
@@ -403,8 +403,8 @@ plugins:
 # https://ppoffice.github.io/hexo-theme-icarus/Configuration/Theme/speed-up-your-site-with-custom-cdn/
 providers:
     # Name or URL template of the JavaScript and/or stylesheet CDN provider
-    cdn: https://cdn.kuri.su/npm/${package}@${version}/${filename}
+    cdn: '[cdnjs]https://cdn.staticfile.org/${package}/${version}/${filename}'
     # Name or URL template of the webfont CDN provider
     fontcdn: ustc
     # Name or URL of the fontawesome icon font CDN provider
-    iconcdn: https://cdn.kuri.su/npm/@fortawesome/fontawesome-free@6.0.0/css/all.css
+    iconcdn: https://cdn.staticfile.org/font-awesome/6.0.0/css/all.css
