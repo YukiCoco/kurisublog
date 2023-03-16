@@ -12,5 +12,5 @@ tags: ["游戏", "魔法上网"]
 使用软路由者亦可将此地址直接加入到代理白名单。
 
 
-  [1]: https://static.kuri.su/2022/11/838015a56bb056edca52710da5135e66.webp
+  [1]: https://niconiacg.visualstudio.com/a158c0e6-f968-4c72-b336-690f5a7c8b4c/_apis/git/repositories/f4cb0aa8-76ef-49d2-bee3-9a3deda56975/items?path=/2022/11/838015a56bb056edca52710da5135e66.webp&%24format=octetStream&api-version=5.0
   [2]: https://www.playstation.com/zh-hans-hk/support/games/ps5-game-captures-ps-app/

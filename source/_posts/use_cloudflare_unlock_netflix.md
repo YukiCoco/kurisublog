@@ -4,7 +4,7 @@ date: 2021-11-19 15:34
 tags: ["脚本", "流媒体"]
 description: Netflix 为了版权方的利益，对视频内容进行了锁区，绝大部分的 IP 地址都被 Netflix 加入了黑名单。
 ---
-![Netflix](https://static.kuri.su/2022/11/c3c6e6a75c0c763636a9143bc1665716.webp)
+![Netflix](https://niconiacg.visualstudio.com/a158c0e6-f968-4c72-b336-690f5a7c8b4c/_apis/git/repositories/f4cb0aa8-76ef-49d2-bee3-9a3deda56975/items?path=/2022/11/c3c6e6a75c0c763636a9143bc1665716.webp&%24format=octetStream&api-version=5.0)
 ### 什么是 Netflix 锁区？
 Netflix 为了版权方的利益，对视频内容进行了锁区，绝大部分的 IP 地址都被 Netflix 加入了黑名单。因此，一台 VPS 的 IP 是否能够解锁 Netflix 也成了一个重要指标。Netflix 的中文字幕仅在大多数华人居住地提供（港澳台新加坡马来西亚），但这些地方解锁本地流媒体的 VPS 普遍较贵。
 <!-- more -->

@@ -3,7 +3,7 @@ title: 我是如何优化博客访问的
 date: 2022-12-05 17:09:49
 tags: ["Web"]
 ---
-![](https://static.kuri.su/2022/12/edc0f7b21060d5445e20aab05d6c7eb2.webp)
+![Rocket](https://niconiacg.visualstudio.com/a158c0e6-f968-4c72-b336-690f5a7c8b4c/_apis/git/repositories/f4cb0aa8-76ef-49d2-bee3-9a3deda56975/items?path=/2022/12/edc0f7b21060d5445e20aab05d6c7eb2.webp&%24format=octetStream&api-version=5.0)
 借着换域名的机会，给博客的速度也优化一手。这篇博文将循序渐进地阐述我为优化访问做出的些许尝试，还有这个过程中的一些思考。
 <!-- more -->
 这是我最近在听的一首歌，现代刻意复古的 City Pop，喜欢极了：
@@ -14,7 +14,7 @@ tags: ["Web"]
 其次，CloudFlare 免费版并不原生支持 CNAME 解析，需要一个小 Hack：使用 CloudFlare SaaS 提供的 CNAME 服务，将 fallback 修改为目的 IP。具体怎么操作网上也有不少教程，不再赘述。  
 > 这里还有一个小插曲，使用 .ru/.su 域名在网页仪表盘无法添加进 Custom Hostnames，但可以通过 API 添加。  
 
-![Custom Hostnames](https://static.kuri.su/2022/12/4e775551f8eac6b106527264a216445c.webp)
+![Custom Hostnames](https://niconiacg.visualstudio.com/a158c0e6-f968-4c72-b336-690f5a7c8b4c/_apis/git/repositories/f4cb0aa8-76ef-49d2-bee3-9a3deda56975/items?path=/2022/12/4e775551f8eac6b106527264a216445c.webp&%24format=octetStream&api-version=5.0)
 ## CDN 回源优化
 为了最大化地缩短 FFTB (Time To First Byte, 第一字节时间)，直接使用由 CDN 厂商提供的静态托管服务，这样就极大地缩短了厂商回源到自己服务器的时间，因此访问者的访问时间就只取决于**访问者至云厂商之间的速度**，这也就是 Serverless 的用处之一。  
 ### CloudFlare
@@ -47,13 +47,13 @@ wrangler publish # 将 Workers Site 发布到生产环境
 博主选择使用 AWS S3 提供的静态托管服务。  
 #### 创建 S3 储存桶
 将 `Block All Public Access` 修改为 False.
-![S3](https://static.kuri.su/2022/12/6541d8acba5d6c1ce1fa8abf5dce407c.webp)  
+![S3](https://niconiacg.visualstudio.com/a158c0e6-f968-4c72-b336-690f5a7c8b4c/_apis/git/repositories/f4cb0aa8-76ef-49d2-bee3-9a3deda56975/items?path=/2022/12/6541d8acba5d6c1ce1fa8abf5dce407c.webp&%24format=octetStream&api-version=5.0)  
 #### 创建 CloudFront Distribution
 前面的内容不再赘述，只说关键的部分。  
 创建分发后修改默认的源配置，如下图
-![CloudFront Source Config](https://static.kuri.su/2022/12/b47d89ece12a96aded07dc5948b1e7ba.webp)  
+![CloudFront Source Config](https://niconiacg.visualstudio.com/a158c0e6-f968-4c72-b336-690f5a7c8b4c/_apis/git/repositories/f4cb0aa8-76ef-49d2-bee3-9a3deda56975/items?path=/2022/12/b47d89ece12a96aded07dc5948b1e7ba.webp&%24format=octetStream&api-version=5.0)  
 再点 Copy Policy，将复制到的策略粘贴到 S3 桶的桶策略中：  
-![S3 Policy](https://static.kuri.su/2022/12/d42867dc20a29b09015647d8649cdbbe.webp)
+![S3 Policy](https://niconiacg.visualstudio.com/a158c0e6-f968-4c72-b336-690f5a7c8b4c/_apis/git/repositories/f4cb0aa8-76ef-49d2-bee3-9a3deda56975/items?path=/2022/12/d42867dc20a29b09015647d8649cdbbe.webp&%24format=octetStream&api-version=5.0)
 还需要修改默认访问地址为 index.html，创建一个 CloudFront Function，填写下列内容：
 ````javascript
 function handler(event) {
@@ -109,7 +109,7 @@ aws cloudfront create-invalidation --distribution-id <Your Distribution Id> --pa
 因为 HTTP/2 的广泛使用，同一域名下的资源浏览器可以并行下载，所以请将外部资源放在同一个域名下。  
 > 安利一本 HTTP 松鼠书的姊妹篇（？）《HTTP/2基础教程》，讲 HTTP/2，言简意赅  
 
-![HTTP/2 基础教程](https://static.kuri.su/2022/12/61df187b6eb2302a431c9a343b2f7524.webp)
+![HTTP/2 基础教程](https://niconiacg.visualstudio.com/a158c0e6-f968-4c72-b336-690f5a7c8b4c/_apis/git/repositories/f4cb0aa8-76ef-49d2-bee3-9a3deda56975/items?path=/2022/12/61df187b6eb2302a431c9a343b2f7524.webp&%24format=octetStream&api-version=5.0)
 ### 缩小 dist
 博主使用 [minify](https://github.com/tdewolff/minify) 进一步缩小生成 dist 的体积。 
 ### 图片

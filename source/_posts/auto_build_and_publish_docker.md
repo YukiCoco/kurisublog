@@ -3,7 +3,7 @@ title: 让 GitHub Actions 自动 Build 并 Push Docker 到 Dockcer Hub
 date: 2022-08-18 21:41
 tags: DevOps
 ---
-![GitHub Actions](https://static.kuri.su/2022/11/c5d70f9575dc4f9cc93dd21e9133c01a.webp)
+![GitHub Actions](https://niconiacg.visualstudio.com/a158c0e6-f968-4c72-b336-690f5a7c8b4c/_apis/git/repositories/f4cb0aa8-76ef-49d2-bee3-9a3deda56975/items?path=/2022/11/c5d70f9575dc4f9cc93dd21e9133c01a.webp&%24format=octetStream&api-version=5.0)
 最近在写 [CheapSteam][1] 的验证相关内容，现在已经可以将它 [部署在服务器][2]。为此也制作了一个 Docker 镜像，当然不能每一个版本都靠我手动 Push，和自动发布到 Release 一样，安排上 GitHub Actions 的自动构建。
 <!-- more -->
 ## 编写 Actions 配置

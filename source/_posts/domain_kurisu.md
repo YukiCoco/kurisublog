@@ -3,8 +3,7 @@ title: 域名注册小记
 date: 2022-11-21 21:10:18
 tags: ["域名"]
 ---
-![牧瀬紅莉栖](https://static.kuri.su/2022/11/8f6e4b28cff50e7244eb847a97b2089a.webp
-)
+![牧瀬紅莉栖](https://niconiacg.visualstudio.com/a158c0e6-f968-4c72-b336-690f5a7c8b4c/_apis/git/repositories/f4cb0aa8-76ef-49d2-bee3-9a3deda56975/items?path=/2022/11/8f6e4b28cff50e7244eb847a97b2089a.webp&%24format=octetStream&api-version=5.0&%24format=octetStream&api-version=5.0)
 最近换域名了XD，现在使用的是 KURI.SU，之前是 KURISU.MOE。你要问为什么是 Kurisu？因为 [牧瀬 紅莉栖](https://steins-gate.fandom.com/wiki/Kurisu_Makise) 的罗马音是 `Kurisu Makise`，我很喜欢这个角色啦。  
 <!-- more -->
 ### 注册之前
@@ -15,7 +14,7 @@ tags: ["域名"]
 直接去原所有者使用的 [RU-CENTER](http://nic.ru/) 开一个 Backorder，购买 Basic Plan（-10$）。  
 因为政治正确的原因，分别试了 MasterCard 和 Visa 都不能成功支付，这一步直接开香槟。  
 想到前两年有注册过 [Yoomoney](https://yoomoney.ru/)，这里可以用这个。但现在入金也不能用信用卡，从 [MIME.exchange](https://mine.exchange/en) 使用 USDT 兑换卢布充值，至于汇率嘛，还行。
-![yoomoney](https://static.kuri.su/2022/11/1cf4ed26b9eee78cde172113b81d72b8.webp)
+![yoomoney](https://niconiacg.visualstudio.com/a158c0e6-f968-4c72-b336-690f5a7c8b4c/_apis/git/repositories/f4cb0aa8-76ef-49d2-bee3-9a3deda56975/items?path=/2022/11/1cf4ed26b9eee78cde172113b81d72b8.webp&%24format=octetStream&api-version=5.0)
 ### 等待注册
 关于 .su 域名的删除时间：  
 > Technical Center will delete .RU, .РФ and .SU domains on the second business day after the scheduled domain release date, if the scheduled domain release date happens on weekend or a day after the weekend.  
@@ -26,8 +25,7 @@ tags: ["域名"]
 
 因为是在周六过期，所以只能等到下周二。    
 当然，最后还是注册到了。  
-![order_email](https://static.kuri.su/2022/11/e8960b5a5dc0f60f024e076653f7bdeb.webp
-)
+![order_email](https://niconiacg.visualstudio.com/a158c0e6-f968-4c72-b336-690f5a7c8b4c/_apis/git/repositories/f4cb0aa8-76ef-49d2-bee3-9a3deda56975/items?path=/2022/11/e8960b5a5dc0f60f024e076653f7bdeb.webp&%24format=octetStream&api-version=5.0)
 ### 注册之后
 .su 域名是可以支持任何国籍的人注册的，但是需要在注册三天之后上传资料审核。对于中国用户，可以提交护照来通过验证。如果是在 RU-CENTER 注册的，只需要在发过来的审核邮件中回复附带 passport 照片即可。
 ### 下一步
