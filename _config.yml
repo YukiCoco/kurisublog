@@ -6,7 +6,7 @@ author: Kurisu
 language: en
 timezone: Asia/Taipei
 url: https://kuri.su
-permalink: post/:name/
+permalink: post/:title.html
 permalink_defaults: null
 pretty_urls:
   trailing_index: true
@@ -63,7 +63,8 @@ theme: icarus
 deploy:
   type: aws-s3
   bucket: kurisublog
-  region: us-east-1
+  region: oss-cn-hongkong
+  endpoint: http://oss-cn-hongkong.aliyuncs.com
 
 aplayer:
   meting: true
