@@ -3,7 +3,7 @@ version: 5.1.0
 # Icarus theme variant, can be "default" or "cyberpunk"
 variant: default
 # Path or URL to the website's logo
-logo: "https://niconiacg.visualstudio.com/a158c0e6-f968-4c72-b336-690f5a7c8b4c/_apis/git/repositories/f4cb0aa8-76ef-49d2-bee3-9a3deda56975/items?path=/steinlogo.png&%24format=octetStream&api-version=5.0"
+logo: "https://niconiacg.visualstudio.com/a158c0e6-f968-4c72-b336-690f5a7c8b4c/_apis/git/repositories/f4cb0aa8-76ef-49d2-bee3-9a3deda56975/items?path=/2023/2/0/154140144215.png&$format=octetStream&api-version=5.0"
 # Page metadata configurations
 head:
     # URL or path to the website's icon
@@ -29,7 +29,7 @@ head:
         icons:
             -
                 # The path to the image file
-                src: 'https://niconiacg.visualstudio.com/a158c0e6-f968-4c72-b336-690f5a7c8b4c/_apis/git/repositories/f4cb0aa8-76ef-49d2-bee3-9a3deda56975/items?path=/steinlogo.png&%24format=octetStream&api-version=5.0'
+                src: 'https://niconiacg.visualstudio.com/a158c0e6-f968-4c72-b336-690f5a7c8b4c/_apis/git/repositories/f4cb0aa8-76ef-49d2-bee3-9a3deda56975/items?path=/2023/2/0/154140144215.png&$format=octetStream&api-version=5.0'
                 # A string containing space-separated image dimensions
                 sizes: ''
                 # A hint as to the media type of the image
