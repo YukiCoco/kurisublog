@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "hexo": "^6.3.0",
-    "hexo-deployer-aws-s3": "file:hexo-deployer-aws-s3",
+    "hexo-deployer-aws-s3": "file:../Projects/hexo-deployer-aws-s3",
     "hexo-filter-github-emojis": "^3.0.5",
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-category": "^2.0.0",
