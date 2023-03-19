@@ -405,6 +405,6 @@ providers:
     # Name or URL template of the JavaScript and/or stylesheet CDN provider
     cdn: '[cdnjs]https://cdn.staticfile.org/${package}/${version}/${filename}'
     # Name or URL template of the webfont CDN provider
-    fontcdn: google
+    fontcdn: loli
     # Name or URL of the fontawesome icon font CDN provider
     iconcdn: https://cdn.staticfile.org/font-awesome/6.0.0/css/all.css
